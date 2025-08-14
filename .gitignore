@@ -1,0 +1,50 @@
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Arquivos de configuração locais
+*.env
+.env.*
+.envrc
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de banco de dados SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos de migração
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Arquivos temporários e de log
+*.log
+*.pot
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por Django
+staticfiles/
+media/
+
+# Configuração de IDEs
+.vscode/
+.idea/
+
+# Arquivos de testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
